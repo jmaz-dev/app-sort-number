@@ -5,7 +5,6 @@ import android.view.View
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ScrollingView
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import java.util.Random
@@ -22,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun sortear(view: View) {
+    fun sorter(view: View) {
 
         val textResult = findViewById<TextView>(R.id.txtResult)
         val number = Random().nextInt(11)
